@@ -16,11 +16,12 @@
     content: '';
     display: block;
     width: 0%;
-    height: 2px;
+    height: 1px;
     position: absolute;
     left: 0px;
-    transition: all .4s;
+    transition: all .4s ease-in;
     bottom: 0px;
+    z-index: 100;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab:hover::after {
